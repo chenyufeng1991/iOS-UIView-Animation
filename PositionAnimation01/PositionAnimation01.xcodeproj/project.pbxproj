@@ -18,6 +18,7 @@
 		7105B05E1B84AAAF00EEBA47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7105B05C1B84AAAF00EEBA47 /* LaunchScreen.xib */; };
 		7105B06A1B84AAAF00EEBA47 /* PositionAnimation01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B0691B84AAAF00EEBA47 /* PositionAnimation01Tests.swift */; };
 		7105B0741B84AD2000EEBA47 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105B0731B84AD2000EEBA47 /* PositionViewController.swift */; };
+		716591861BF07C78003E43AA /* TimingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716591851BF07C78003E43AA /* TimingViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		7105B0681B84AAAF00EEBA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7105B0691B84AAAF00EEBA47 /* PositionAnimation01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionAnimation01Tests.swift; sourceTree = "<group>"; };
 		7105B0731B84AD2000EEBA47 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
+		716591851BF07C78003E43AA /* TimingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				7104C09A1B8567F100C4C2E6 /* ScaleViewController.swift */,
 				7104C09C1B856C1900C4C2E6 /* ColorViewController.swift */,
 				7104C09E1B8571F400C4C2E6 /* RotationViewController.swift */,
+				716591851BF07C78003E43AA /* TimingViewController.swift */,
 				7105B0571B84AAAF00EEBA47 /* Main.storyboard */,
 				7105B05A1B84AAAF00EEBA47 /* Images.xcassets */,
 				7105B05C1B84AAAF00EEBA47 /* LaunchScreen.xib */,
@@ -233,6 +236,7 @@
 				7104C09B1B8567F100C4C2E6 /* ScaleViewController.swift in Sources */,
 				7105B0561B84AAAF00EEBA47 /* ViewController.swift in Sources */,
 				7104C0991B85618600C4C2E6 /* OpacityViewController.swift in Sources */,
+				716591861BF07C78003E43AA /* TimingViewController.swift in Sources */,
 				7104C09F1B8571F400C4C2E6 /* RotationViewController.swift in Sources */,
 				7104C09D1B856C1900C4C2E6 /* ColorViewController.swift in Sources */,
 				7105B0541B84AAAF00EEBA47 /* AppDelegate.swift in Sources */,
