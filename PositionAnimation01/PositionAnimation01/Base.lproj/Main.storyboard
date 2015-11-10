@@ -328,10 +328,35 @@
                     <view key="view" contentMode="scaleToFill" id="g9q-ai-krG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="S3W-Sq-6iC">
+                                <rect key="frame" x="20" y="79" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="MhS-5V-E2N">
+                                <rect key="frame" x="20" y="173" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="4i8-XD-6jN">
+                                <rect key="frame" x="20" y="265" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="dQq-7H-kx0"/>
+                    <connections>
+                        <outlet property="blueSquare" destination="S3W-Sq-6iC" id="u6T-aY-I22"/>
+                        <outlet property="greenSquare" destination="4i8-XD-6jN" id="aaM-xx-Ii8"/>
+                        <outlet property="redSquare" destination="MhS-5V-E2N" id="psa-zK-V5n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGH-dV-29Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
