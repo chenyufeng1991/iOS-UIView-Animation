@@ -18,9 +18,7 @@ class RepeatViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // Do any additional setup after loading the view.
   }
-  
   
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated);
@@ -38,10 +36,6 @@ class RepeatViewController: UIViewController {
     UIView.animateWithDuration(1, delay: 0, options:[UIViewAnimationOptions.Repeat ,UIViewAnimationOptions.Autoreverse], animations: { () -> Void in
       self.greenSquare.center.x = self.view.bounds.width - self.greenSquare.center.x;
       }, completion: nil)
-    
-    
-    
-    
     
   }
   

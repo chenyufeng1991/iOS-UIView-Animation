@@ -7,43 +7,21 @@
 //
 
 
-
-
-
-
-
-
-/*
-//这是第一个版本；
-
-//这是第二个版本；
-
-
-
-*/
-
-
 import UIKit
 
 class RotationViewController: UIViewController {
 
-    
     @IBOutlet weak var wheel: UIImageView!
-    
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
     
     func spin(){
-    
         UIView.animateWithDuration(1, delay: 0, options: .CurveLinear, animations: {
-        
             self.wheel.transform = CGAffineTransformRotate(self.wheel.transform, CGFloat(360))//第二个参数是角度；
             }) {
-        
                 //结束后仍旧调用spin()函数；
                 (finished)-> Void in
                 self.spin()

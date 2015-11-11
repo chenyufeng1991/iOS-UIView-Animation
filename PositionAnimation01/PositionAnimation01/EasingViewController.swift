@@ -9,7 +9,7 @@
 import UIKit
 
 class EasingViewController: UIViewController {
-
+  
   
   @IBOutlet weak var blueSquare: UIView!
   @IBOutlet weak var redSquare: UIView!
@@ -18,13 +18,11 @@ class EasingViewController: UIViewController {
   @IBOutlet weak var yellowSquare: UIView!
   
   
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+  }
+  
   override func viewDidAppear(animated: Bool) {
     super.viewDidAppear(animated);
     
@@ -45,10 +43,6 @@ class EasingViewController: UIViewController {
       self.yellowSquare.center.x = self.view.bounds.width - self.yellowSquare.center.x
       }, completion: nil)
     
-    
-    
   }
   
-
-
 }
