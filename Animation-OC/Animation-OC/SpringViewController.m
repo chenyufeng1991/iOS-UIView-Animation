@@ -31,7 +31,7 @@
 
     self.greenSquare.frame = CGRectMake(250, self.greenSquare.frame.origin.y, self.greenSquare.frame.size.width, self.greenSquare.frame.size.height);
   } completion:nil];
-
+  
   [UIView animateWithDuration:2 delay:0.5 usingSpringWithDamping:0.2 initialSpringVelocity:1 options:UIViewAnimationOptionTransitionNone animations:^{
 
     self.redSquare.frame = CGRectMake(250, self.redSquare.frame.origin.y, self.redSquare.frame.size.width, self.redSquare.frame.size.height);
