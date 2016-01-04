@@ -13,26 +13,22 @@
 
 @property (weak, nonatomic) IBOutlet UIView *redSquare;
 
-
 @end
 
 @implementation ScaleViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
 
+  [super viewDidLoad];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
 
   [super viewWillAppear:animated];
-
   [UIView animateWithDuration:2 animations:^{
-
     //宽高缩放比；
     self.redSquare.transform = CGAffineTransformMakeScale(2, 3);
   }];
-  
 }
 
 @end

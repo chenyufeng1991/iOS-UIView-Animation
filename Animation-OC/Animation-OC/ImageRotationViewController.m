@@ -21,9 +21,8 @@
 @implementation ImageRotationViewController
 
 - (void)viewDidLoad {
+
   [super viewDidLoad];
-
-
   /**
    UIImageOrientationUp,            // default orientation
    UIImageOrientationDown,          // 180 deg rotation
@@ -34,7 +33,6 @@
    UIImageOrientationLeftMirrored,  // vertical flip
    UIImageOrientationRightMirrored, // vertical flip
    */
-
   UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, kScreenHeight / 2, 80, kScreenWidth)];
   UIImage *image = [UIImage imageNamed:@"1"];
   /**
@@ -43,13 +41,10 @@
   UIImage *imageRotate = [UIImage imageWithCGImage:image.CGImage scale:1 orientation:UIImageOrientationLeft];
   [imageView setImage:imageRotate];
   [self.view addSubview:imageView];
-
   [UIView animateWithDuration:2 animations:^{
     imageView.transform = CGAffineTransformRotate(imageView.transform, M_PI_2);
     imageView.frame = CGRectMake(0, 64, kScreenWidth, 80);
   }];
-
-
 }
 
 @end
