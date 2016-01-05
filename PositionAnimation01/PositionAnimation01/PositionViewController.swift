@@ -16,23 +16,24 @@ class PositionViewController: UIViewController {
   @IBOutlet weak var blueSquare: UIView!
   
   override func viewDidLoad() {
+
     super.viewDidLoad()
-    
   }
   
   override func viewDidAppear(animated: Bool) {
-    
-    
+
     //闭包函数的定义；
     //注意调用动画的方法中的animations,completion使用的都是闭包函数；可以直接在外面定义，里面调用，这样代码更加清晰；
     //这里的闭包需要传入的参数是一个BOOl值；返回值为空；
     //这个是动画执行完成后的回调；
     func completeGreen(v:Bool){
-      print("Green Completion")
+
+        print("Green Completion")
     }
     
     func completeRed(v:Bool){
-      print("Red Completion")
+
+        print("Red Completion")
     }
     
     func completeBlue(v:Bool){
