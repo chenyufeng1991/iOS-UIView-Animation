@@ -29,6 +29,7 @@
 
   [super viewWillAppear:animated];
   [UIView animateWithDuration:2 delay:0 options:UIViewAnimationOptionRepeat animations:^{
+
     self.greenSquare.frame = CGRectMake(250, self.greenSquare.frame.origin.y, self.greenSquare.frame.size.width, self.greenSquare.frame.size.height);
   } completion:^(BOOL finished) {
   }];

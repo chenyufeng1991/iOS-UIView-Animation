@@ -17,9 +17,6 @@
 - (void)viewDidLoad {
 
   [super viewDidLoad];
-  /**
-   *  其他代码
-   */
 }
 
 @end

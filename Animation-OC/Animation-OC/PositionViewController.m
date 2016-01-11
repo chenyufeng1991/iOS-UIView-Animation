@@ -29,6 +29,7 @@
 
   [super viewWillAppear:animated];
   [UIView animateWithDuration:2 animations:^{
+
     self.redSquare.frame = CGRectMake(self.redSquare.frame.origin.x, 400, self.redSquare.bounds.size.width, self.redSquare.bounds.size.height);
     self.greenSquare.frame = CGRectMake(200, 500, self.greenSquare.bounds.size.width, self.greenSquare.bounds.size.height);
   }];
