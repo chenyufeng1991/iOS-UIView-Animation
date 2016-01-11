@@ -14,33 +14,18 @@ class ColorViewController: UIViewController {
     @IBOutlet weak var swiftText: UILabel!
   
     override func viewDidLoad() {
-        super.viewDidLoad()
 
+        super.viewDidLoad()
     }
 
     override func viewDidAppear(animated: Bool) {
+
         super.viewDidAppear(animated)
-        
         func anim(){
+
             self.greenSquare.backgroundColor = UIColor.blackColor()
             self.swiftText.textColor = UIColor.blueColor()
         }
         UIView.animateWithDuration(2, animations: anim)
     }
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -16,13 +16,13 @@ class RepeatViewController: UIViewController {
   @IBOutlet weak var greenSquare: UIView!
   
   override func viewDidLoad() {
+
     super.viewDidLoad()
-    
   }
   
   override func viewDidAppear(animated: Bool) {
+
     super.viewDidAppear(animated);
-    
     UIView.animateWithDuration(1) { () -> Void in
       self.blueSquare.center.x = self.view.bounds.width - self.blueSquare.center.x
     }
@@ -30,14 +30,10 @@ class RepeatViewController: UIViewController {
     UIView.animateWithDuration(1, delay: 0, options: UIViewAnimationOptions.Repeat, animations: { () -> Void in
       self.redSquare.center.x = self.view.bounds.width - self.redSquare.center.x;
       }, completion: nil)
-    
-    
+
     //注意这里options的表达式；
     UIView.animateWithDuration(1, delay: 0, options:[UIViewAnimationOptions.Repeat ,UIViewAnimationOptions.Autoreverse], animations: { () -> Void in
       self.greenSquare.center.x = self.view.bounds.width - self.greenSquare.center.x;
       }, completion: nil)
-    
   }
-  
-  
 }

@@ -13,28 +13,17 @@ class ScaleViewController: UIViewController {
     @IBOutlet weak var greenSquare: UIView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
 
+        super.viewDidLoad()
     }
     
     override func viewDidAppear(animated: Bool) {
+
         super.viewDidAppear(animated)
-        
         func anim(){
+
             self.greenSquare.transform = CGAffineTransformMakeScale(0.5, 0.5)//缩小为原来的0.5倍；
         }
         UIView.animateWithDuration(1, animations: anim)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
